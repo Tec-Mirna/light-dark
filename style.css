@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Barlow+Condensed:ital,wght@1,700&family=Dancing+Script&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Nunito:ital,wght@1,800&family=Playpen+Sans:wght@100;200&display=swap');
+
+:root{
+  /* Definir variables en css */
+  --primary-color: #7D3C98;
+  --primary-font:  'Dancing Script', cursive;
+}
+
+
+
+/*dark y light Palabras reservadas, js las tiene  */
+:root.dark{
+  /* color de fondo   bg-background-color*/
+ --bg-color: #1C2833;
+ /* Color del texto */
+ --text-color: #F8F9F9;
+}
+:root.light{
+ --bg-color:#F8F9F9;
+ --text-color:#1C2833;
+}
+
+/* El texto de las siguientes etiquetas se vuelve morado */
+h1{
+  color: var(--primary-color);
+  /* tipo de letra */
+  font-family: var(--primary-font);
+}
+h2{
+  color: var(--primary-color);
+}
+h3{
+  color: var(--primary-color);
+}
+
+
+body{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+
+/* OTRA MANERA DE HACERLO  */
+
+/* 
+  .dark{
+    background-color: rgb(79, 76, 76);
+    color: white;
+}
+
+.light{
+    background-color:white;
+    color: rgb(34, 34, 34);
+
+*/
